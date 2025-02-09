@@ -1,0 +1,6 @@
+nome = str(input('diga seu nome: ').strip())
+n = nome.split()
+print('tem {} vezes a letra a'.format(nome.upper().count('A')))
+print('a primeira letra A apareceu em {}'.format(nome.upper().find('A')))
+print('a ultima letra A apareceu em {}'.format(nome.upper().rfind('A')))
+print('seu primeiro nome e {} e o ultimo e {}'.format(n[0], n[len(n)-1]))

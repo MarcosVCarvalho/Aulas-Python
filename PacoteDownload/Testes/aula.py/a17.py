@@ -1,13 +1,13 @@
 num = [2,4,3,8,5,28]
 num[0] = 3
 num.append(7)
-num.sort(reverse=True) #sort ordena
+num.sort(reverse=True) #sort ordena 
 num.pop(0) #pop remove um casa
 num.remove(3) #remove um valor
 print(f'a lista tem {len(num)} itens')
 for v in num:
-    print(f'{v}..')
-
+    print(f'{v}..',end='')
+print()
 
 val = []
 for cont in range(0,4):

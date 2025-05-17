@@ -7,7 +7,7 @@ def ajuda(n):
     except Exception as e:
         print(f"Erro: {e}")
 
-def titulo(msm, cor=0):
+def titulo(msm, cor=m):
     tam = len(msm) + 4
     print(c[cor], end='')
     print('~' * tam)

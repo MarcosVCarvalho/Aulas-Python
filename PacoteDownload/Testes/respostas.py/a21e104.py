@@ -6,7 +6,7 @@ def valido(msm):
             n = int(n)
             c += 1
         else:
-            print('por favor digite um texto valido')
+            print('por favor digite um número valido')
     return(n)
 n = valido('digite um numero: ')
-print(f'{n} e um numero')
+print(f'{n} é um numero')

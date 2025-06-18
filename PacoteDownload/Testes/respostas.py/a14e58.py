@@ -11,3 +11,4 @@ while n != t:
         print('mais')
     t = int(input('vc errou! Tente novamente: '))
 print('parabens vc acertou em {} tentativas, meu numero era {}'.format(tt,n))
+
